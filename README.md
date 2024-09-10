@@ -1,3 +1,5 @@
+Mostly generated code from [proto](https://github.com/unioneplatform/proto).
+
 The main branch can be broken. Make sure to use tagged releases.
 
 To use the default client(s), you can try something like:
