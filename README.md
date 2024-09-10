@@ -1,4 +1,4 @@
-Mostly generated code from [proto](https://github.com/unioneplatform/proto).
+Mostly generated code from the [proto](https://github.com/unioneplatform/proto) repository.
 
 The main branch can be broken. Make sure to use tagged releases.
 
