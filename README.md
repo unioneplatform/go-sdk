@@ -6,9 +6,9 @@ To use the default client(s), you can try something like:
 
 ```go
 ctx := context.Background()
-client, _ := info.NewClient(ctx)
+client, _ := iam.NewClient(ctx)
 defer client.Close()
-out, err := client.GetInfo(ctx, &info.GetInfoRequest{})
+out, err := client.WhoAmI(ctx, &info.GetInfoRequest{})
 log.Println(out, err)
 ...
 ```
